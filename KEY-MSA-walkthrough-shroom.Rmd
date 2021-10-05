@@ -742,7 +742,7 @@ shrooms_vector_ss[names.focal]
 
 Let's assign the subset of sequences to a new object called shrooms_vector_ss_subset.
 ```{r}
-shrooms_vector_ss_subset <- shrooms_vector_ss[names.focal]
+shrooms_vector_ss_subset <- shrooms_vector_ss[names.focal] # can you use $ sign notation like shrooms_vector_ss(names$focal) and end up with the same result?
 ```
 
 Let's make another MSA with just this subset.  If msa isn't working for you you can comment this out.
